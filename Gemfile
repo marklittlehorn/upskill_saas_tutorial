@@ -29,7 +29,10 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 # Use Twiitter Bootstrap libarary for front-end and UI layout
-gem 'bootstrap-sass', '3.3.7'
+gem  'bootstrap-sass', '3.3.7'
+
+# use font awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
